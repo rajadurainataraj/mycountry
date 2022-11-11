@@ -1,0 +1,80 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#023047;
+}
+.main {
+    background-image: url('india.jpg');
+    background-size:cover;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    background: #1d3557;
+    color:white;
+    border-radius: 5px;
+    padding:5px 16px;
+}
+.subText {
+    background: #457b9d;
+    color:white;
+    border-radius: 5px;
+    padding:5px 16px;
+}
+.centerTxt {
+    text-align: center;
+    margin-left: 150px;
+}
+.placesHeading {
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.places {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgstyle {
+width:150px;
+height: 150px;
+border-radius: 50%;
+}
+.subplaces {
+    width:33%;
+    text-align: center;
+}
+.guide-main {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+width:100%;
+margin-top:30px;
+}
+.sub-main {
+    padding:10px 0px 0px 10px ;
+    display: flex;
+    flex-direction: row;
+    height:210px;
+    width:400px;
+    align-items: start;
+    background-color:#a8dadc;
+    border-radius: 5px;
+
+}
+.guide-img {
+    width:200px;
+    height: 200px;
+}
+.guide-sub {
+text-align: center;
+margin-left: 5px;
+}
+
+.italic-f {
+    font-style: italic;
+}
